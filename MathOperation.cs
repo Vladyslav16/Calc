@@ -91,11 +91,6 @@ namespace Trpz_Calculator
             if (!Double.TryParse(num1, out a)) { return null; }
             return Math.Round(a,1).ToString();
         }
-        public static string Log10(string num1)
-        {
-            double a;
-            if (!Double.TryParse(num1, out a)) { return null; }
-            return Math.Log10(a).ToString();
-        }
+        
     }
 }
